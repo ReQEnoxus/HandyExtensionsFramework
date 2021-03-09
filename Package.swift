@@ -12,6 +12,6 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "HandyExtensionsFramework", url: "./HandyExtensionsFramework.xcframework.zip", checksum: "3074c78131724148e57503c82f8dae97cd76862a0d7776da674bfd1c7705f80c")
+        .binaryTarget(name: "HandyExtensionsFramework", url: "https://github.com/ReQEnoxus/HandyExtensionsFramework/raw/master/HandyExtensionsFramework.xcframework.zip", checksum: "3074c78131724148e57503c82f8dae97cd76862a0d7776da674bfd1c7705f80c")
     ]
 )
